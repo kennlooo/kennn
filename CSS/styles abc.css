@@ -1,0 +1,98 @@
+
+.body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(image/back\ ranbow.jpg);
+    background-repeat: no-repeat;
+	background-position: center bottom;
+	color: #a68c8c;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: arial,helvetica,sans-serif,微軟正黑體;
+	font-style: normal;
+}
+.box{
+    height: 50px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+
+.bg1{
+    background-color: #b89e9e;
+}
+
+.bg2{
+    background-color: #a06b6b;
+}
+
+.slidershow1{
+
+}
+
+.slidershow2{
+
+}
+
+.color1 {
+	background-color: #835353;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.color2 {
+	background-color: #532f2f;
+    font-size: 35px;
+}
+
+.move{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+.move:hover{
+    color: rgb(255, 219, 219);
+    text-decoration: underline;
+}
+.back_top{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(136, 183, 219);
+}
+.top{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    padding-right: 30%;
+    padding-left:30%;
+    
+}
+.drop{
+    background-color: bisque;
+}
+
+.vcenter {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	color: #ffffff;
+	text-align: center;
+	/*以下 transform，主要是讓此元素往左移動自己本身寬度的50%，也往上左移動自己本身高度的50%，而前方所加的-xxx-前綴詞，是for不同瀏覽器的*/
+	-webkit-transform: translateX(-50%) translateY(-50%); /* Chrome, newer versions of Opera*/
+	-moz-transform: translateX(-50%) translateY(-50%); /* Firefox */
+	-ms-transform: translateX(-50%) translateY(-50%); /* nternet Explorer */
+	-o-transform: translateX(-50%) translateY(-50%); /* Old versions of Opera */
+	transform: translateX(-50%) translateY(-50%); /* 沒限制，有支援的瀏覽器就會run */
+	text-align: center; /*裡面的文字置中*/
+}
+
+.shadow { 
+	text-shadow: 12px 12px 10px rgba(133, 116, 89, 0.9); /*文字陰影效果*/ 
+}
+
+

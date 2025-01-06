@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles abc.css">
+<link rel="stylesheet" href="nav.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>喜歡的歌</title>
+</head>
+<body>
+
+    <div class="box">
+
+      <!--下拉式選單-->
+        <div class="link">
+            <div class="w3-bar w3-section w3-gray w3-card-4"><!--長條灰色圖-->   
+          <div class="btn-group">
+            <button class="btn btn-danger btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+            回主頁  <i class="fa fa-home"></i>
+            </button>
+            <div class="dropdown-menu">   
+                <a class="dropdown-item" href="index.html">XIAN的個人網站</a>
+            <a class="dropdown-item" href="song.html">喜歡的歌</a>
+            </div>
+
+          <div class="btn-group">
+            <button class="btn btn-info btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+            我的作品 <i class="fa fa-file"></i>
+            </button>
+            <div class="dropdown-menu"><!--移動到指定位置--> 
+              <a class="dropdown-item" href="#a" class="move">2D作品</a>
+              <a class="dropdown-item" href="#b" class="move">3D作品</a>
+              <a class="dropdown-item" href="#c" class="move">Animation</a>
+            </div>
+            </div> <!--下拉是選單-->
+ 
+            <div class="btn-group">  
+                <button class="btn btn-info btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                聯絡我 <i class="fa fa-phone"></i>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="contect me.html">FB</a>
+                  <a class="dropdown-item" href="contect me.html">IG</a>
+                  <a class="dropdown-item" href="contect me.html">Mail</a>
+                </div>
+                </div>
+                
+
+        <body>
+          
+        </div>
+
+      <style>
+
+          h2 {
+              margin-bottom: 10px;
+          }
+  
+          .slideshow {
+              position: relative;
+              width: 80%;
+              max-width: 600px;
+              overflow: hidden;
+              border: 2px solid #ddd;
+              border-radius: 10px;
+          }
+  
+          .slideshow img {
+              width: 100%;
+              display: none;
+          }
+  
+          .slideshow img.active {
+              display: block;
+          }
+  
+          /* Manual Controls */
+          .controls {
+              position: absolute;
+              top: 50%;
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              transform: translateY(-50%);
+          }
+  
+          .controls button {
+              background-color: rgba(0, 0, 0, 0.5);
+              color: white;
+              border: none;
+              padding: 10px 20px;
+              cursor: pointer;
+              border-radius: 5px;
+          }
+  
+          .controls button:hover {
+              background-color: rgba(255, 255, 255, 0.8);
+          }
+  
+          /* Thumbnail Slideshow */
+          .thumbnail-container {
+              display: flex;
+              justify-content: center;
+              gap: 5px;
+              margin-top: 10px;
+          }
+  
+          .thumbnail-container img {
+              width: 80px;
+              height: 50px;
+              cursor: pointer;
+              border: 2px solid transparent;
+              border-radius: 5px;
+          }
+  
+          .thumbnail-container img.active {
+              border-color: #333;
+          }
+          .slideshow video.active {
+            display: block;
+        }
+        .slideshow video {
+            width: 100%;
+            display: none;
+            background-color: rgb(136, 97, 97);
+        }
+      </style>
+  </head>
+  <body>
+
+   
+      <div id="a" class="box color2"></div>
+      <div class="color2">
+      <section>
+         
+          <div class="slideshow auto">
+              <img src="image/B4.jpg" class="active" alt="Slide 1">
+              <img src="image/HO.jpg" alt="">  
+              <img src="image/Chen.jpg" alt="">
+              <img src="image/Gaga.jpg" alt="">  
+              </div>
+
+                <p>最近常聽</p>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">The Beatles</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Hozier</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">Eason Chen</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Lady GaGa</label>
+              </div>
+
+            
+          
+          </div>
+      </section>
+
+      <!-- 3D -->
+
+      <select class="custom-select custom-select-lg mb-3 w3-teal">
+        <option selected>喜歡歌曲列表</option>
+        <option value="1">Let It Be</option>
+        <option value="2">Hey Jude</option>
+        <option value="3">Too sweet</option>
+        <option value="4">十年</option>
+        <option value="5">愛情轉移</option>
+        <option value="6">Cooper</option>
+        <option value="7">Shallow</option>
+        
+      </select>
+      
+      <div id="b" class="box ">喜愛歌曲作品</div>
+      <div class="color1"></div>
+      <section>
+          <div class="slideshow manual">
+              <img src="image/LEt.jpg" class="active" alt="Slide 1">
+              <img src="image/HEEEE.jpg" alt="Slide 2">
+              <img src="image/SWET.jpg" alt="Slide 3">
+              <img src="image/10.jpeg" alt="Slide 3">
+              <img src="image/hq720.jpg" alt="Slide 3">
+              <img src="image/SHA.jpg" alt="Slide 3">
+              <img src="image/COOOOOOOOO.jpg" alt="Slide 3">
+              <div class="controls">
+                  <button id="prev">❮ </button>
+                  <button id="next"> ❯</button>
+              </div>
+          </div>
+      </section>
+
+  
+      <!-- animation -->
+
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+            <label class="custom-control-label" for="customSwitch1">Like</label>
+          </div>
+
+          <label for="customRange3"> 1...................................................................................................................................100</label>
+<input type="range" class="custom-range" min="0" max="5" step="0.5" id="customRange3">
+
+
+      <div class="back_top">
+        <div class="top">
+          <a href="#top"><i class="fa-solid fa-arrow-up"></i>*
+            
+    </div>
+  
+      <script>
+          // Auto Slideshow
+          const autoSlides = document.querySelectorAll('.slideshow.auto img');
+          let autoIndex = 0;
+  
+          function showAutoSlide() {
+              autoSlides.forEach((slide, index) => {
+                  slide.classList.toggle('active', index === autoIndex);
+              });
+              autoIndex = (autoIndex + 1) % autoSlides.length;
+          }
+  
+          setInterval(showAutoSlide, 3000); // Change slide every 3 seconds
+  
+          // Manual Slideshow
+          const manualSlides = document.querySelectorAll('.slideshow.manual img');
+          let manualIndex = 0;
+  
+          function showManualSlide(index) {
+              manualSlides.forEach((slide, i) => {
+                  slide.classList.toggle('active', i === index);
+              });
+          }
+  
+          document.getElementById('prev').addEventListener('click', () => {
+              manualIndex = (manualIndex - 1 + manualSlides.length) % manualSlides.length;
+              showManualSlide(manualIndex);
+          });
+  
+          document.getElementById('next').addEventListener('click', () => {
+              manualIndex = (manualIndex + 1) % manualSlides.length;
+              showManualSlide(manualIndex);
+          });
+  
+          // Thumbnail Slideshow
+          const thumbnailSlides = document.querySelectorAll('.slideshow.thumbnail img');
+          const thumbnails = document.querySelectorAll('.thumbnail-container img');
+  
+          thumbnails.forEach((thumbnail, index) => {
+              thumbnail.addEventListener('click', () => {
+                  thumbnailSlides.forEach((slide, i) => {
+                      slide.classList.toggle('active', i === index);
+                      thumbnails[i].classList.toggle('active', i === index);
+                  });
+              });
+          });
+
+        // Video Slideshow
+        const videoSlides = document.querySelectorAll('.slideshow.video video');
+        let videoIndex = 0;
+
+        function showVideoSlide() {
+            videoSlides.forEach((video, index) => {
+                video.classList.toggle('active', index === videoIndex);
+                if (index === videoIndex) {
+                    video.play();
+                } else {
+                    video.pause();
+                    video.currentTime = 0; // Reset video
+                }
+            });
+            videoIndex = (videoIndex + 1) % videoSlides.length;
+        }
+
+        setInterval(showVideoSlide, 5000); // Change video every 5 seconds
+    </script>
+                <script>
+                    $("a.move").on( "click" , function(){
+                        var to = $(this).attr("href");
+                        //alert(to);
+                
+                        $("html, body, div").animate( {
+                            scrollTop : $(to).position().top
+                        } , 1000);
+                        return false;
+                    });
+                </script>
+      </script>
+
+  </body>
+  </html>
+
+
+
+
+    
+</body>
+
+
+ <!--
+<a href="#a" class="move">2D作品</a>
+ <a href="#b" class="move">3D作品</a>
+<a href="#c" class="move">animation</a>-->
+<!--<body>
+    <div class="fixed_bg bg_1">
+        <h1 class="vcenter shadow">圖片一</h1>
+    </div>
+
+    <div class="infos color1">
+        <h1 class="vcenter shadow">Data1</h1>
+        <img src="image/AI醫療_羅盛憲.jpg" alt="">
+    </div>
+
+    <div class="fixed_bg bg_2">
+        <h1 class="vcenter shadow">圖片二</h1>
+    </div>
+
+    <div class="infos color2">
+        <h1 class="vcenter shadow">Data2</h1>
+    </div>
+
+    <div class="fixed_bg bg_3">
+        <h1 class="vcenter shadow">圖片三</h1>
+    </div>
+
+    <div class="infos color3">
+        <h1 class="vcenter shadow">Data3</h1>
+    </div>
+
+</body>-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</html>
